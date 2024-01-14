@@ -10,6 +10,8 @@ The components used are:
 * AWS Lambda function to run the code (Python)
 * PostgresSQL with AWS RDS to store events data
 
+*NOTE: this is an initial version, for a more scalable solution you'd need to use ALB, WAF, and several more modifications.
+
 ### Getting started
 ##### 1. Before starting you'll need to have the following AWS prerequisites:
 - AN AWS account with an IAM user credentials (don't user your root user!)
