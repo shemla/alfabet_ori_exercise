@@ -8,7 +8,7 @@ The components used are:
 * AWS S3 + DynamoDB to hold the Terraform state file
 * AWS IAM roles for authentication (one role to create the infrastructure, one role to access the api)
 * AWS Lambda function to run the code (Python)
-* MySQL with AWS RDS to store events data
+* PostgresSQL with AWS RDS to store events data
 
 ### Getting started
 ##### 1. Before starting you'll need to have the following AWS prerequisites:
